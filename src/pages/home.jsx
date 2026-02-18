@@ -5,6 +5,10 @@ import {
     Grid,
     Typography
 } from "@mui/material"
+import {
+  Fade 
+} from "react-awesome-reveal"
+
 
 export default function Home(){
     return(
@@ -39,6 +43,7 @@ export default function Home(){
                 >
                     I'm John Anderson! A Web Developer Building Awesome Webapps And Websites That Powers The Internet
                 </Typography>
+
                 <Grid item size={{lg:5}} style={{display:"flex", justifyContent:"left", marginTop:"1rem"}} >
                     <Button
                      variant="contained"
@@ -59,7 +64,7 @@ export default function Home(){
                     </Button>
                 </Grid>
             </Grid>
-        </Grid>
+          </Grid>
        </Box>
     )
 }
